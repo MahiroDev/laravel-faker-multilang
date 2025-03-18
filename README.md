@@ -11,11 +11,13 @@ Faker Multi Bahasa untuk Laravel yang mendukung **Indonesia, Jepang, Korea, Toky
 Tambahkan package ini ke dalam project Laravel kamu menggunakan **Composer**:
 
 ```bash
-composer require sayangku/faker-multilang
+composer require hikari/faker-multilang
 ```
 
 ```bash
-composer require sayangku/faker-multilang:^1.0.1 --with-all-dependencies
+composer require hikari/faker-multilang:^1.0.1 --with-all-dependencies
+composer require hikari/faker-multilang:^1.0.2 --with-all-dependencies
+composer require hikari/faker-multilang:^1.0.3 --with-all-dependencies
 ```
 
 ### **2️⃣ Verifikasi Instalasi**
@@ -315,7 +317,7 @@ Silakan dicoba! 🚀😊
 Jika mengalami kendala saat menggunakan Faker Multi Bahasa, berikut beberapa solusi umum:
 
 1. **Class not found error:**
-   - Pastikan package sudah diinstal dengan benar menggunakan `composer require sayangku/faker-multilang`.
+   - Pastikan package sudah diinstal dengan benar menggunakan `composer require hikarifaker-multilang`.
    - Jalankan `composer dump-autoload` untuk memastikan autoload telah diperbarui.
 
 2. **Data tidak muncul atau kosong:**
