@@ -30,7 +30,6 @@ class ComposerStaticInit375474f7c17df50a848dbf6b7576c57c
             'Symfony\\Contracts\\Translation\\' => 30,
             'Symfony\\Component\\Translation\\' => 30,
             'Symfony\\Component\\Clock\\' => 24,
-            'Sayangku\\FakerMultilang\\' => 24,
         ),
         'P' => 
         array (
@@ -55,6 +54,10 @@ class ComposerStaticInit375474f7c17df50a848dbf6b7576c57c
         array (
             'Carbon\\Doctrine\\' => 16,
             'Carbon\\' => 7,
+        ),
+        'A' => 
+        array (
+            'App\\Services\\FakerMultiLang\\' => 28,
         ),
     );
 
@@ -83,10 +86,6 @@ class ComposerStaticInit375474f7c17df50a848dbf6b7576c57c
         array (
             0 => __DIR__ . '/..' . '/symfony/clock',
         ),
-        'Sayangku\\FakerMultilang\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'Psr\\SimpleCache\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/simple-cache/src',
@@ -101,9 +100,9 @@ class ComposerStaticInit375474f7c17df50a848dbf6b7576c57c
         ),
         'Illuminate\\Support\\' => 
         array (
-            0 => __DIR__ . '/..' . '/illuminate/macroable',
+            0 => __DIR__ . '/..' . '/illuminate/collections',
             1 => __DIR__ . '/..' . '/illuminate/conditionable',
-            2 => __DIR__ . '/..' . '/illuminate/collections',
+            2 => __DIR__ . '/..' . '/illuminate/macroable',
             3 => __DIR__ . '/..' . '/illuminate/support',
         ),
         'Illuminate\\Contracts\\' => 
@@ -125,6 +124,10 @@ class ComposerStaticInit375474f7c17df50a848dbf6b7576c57c
         'Carbon\\' => 
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
+        ),
+        'App\\Services\\FakerMultiLang\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app/Services/FakerMultiLang',
         ),
     );
 
