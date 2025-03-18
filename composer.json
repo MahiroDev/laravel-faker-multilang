@@ -1,6 +1,7 @@
 {
-    "name": "sayangku/faker-multilang",
-    "description": "Faker khusus Indonesia, Jepang, Korea, dan Tokyo",
+    "name": "composer/faker-multilang",
+    "description": "Indonesia, Jepang, Korea, dan Tokyo",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "FakerMultiLang\\": "src/"
@@ -14,7 +15,6 @@
         }
     },
     "require": {
-        "fzaninotto/faker": "^1.5",
         "illuminate/support": "^12.2"
     }
 }
