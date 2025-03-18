@@ -4,13 +4,13 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "SayangKu\\FakerMultiLang\\": "src/"
+            "FakerMultiLang\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-            "SayangKu\\FakerMultiLang\\FakerServiceProvider"
+                "FakerMultiLang\\FakerServiceProvider"
             ]
         }
     },
