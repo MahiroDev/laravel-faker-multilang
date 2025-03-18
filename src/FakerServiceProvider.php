@@ -14,7 +14,17 @@ class FakerServiceProvider extends ServiceProvider
             $faker->addProvider(new FakerIndonesia($faker));
             $faker->addProvider(new FakerJepang($faker));
             $faker->addProvider(new FakerKorea($faker));
-            $faker->addProvider(new FakerTokyo($faker));
+            // Add new providers
+            $faker->addProvider(new FakerAmerika($faker));
+            $faker->addProvider(new FakerChina($faker));
+            $faker->addProvider(new FakerIndia($faker));
+            $faker->addProvider(new FakerPerancis($faker));
+            $faker->addProvider(new FakerJerman($faker));
+            $faker->addProvider(new FakerItalia($faker));
+            $faker->addProvider(new FakerSpanyol($faker));
+            $faker->addProvider(new FakerRusia($faker));
+            $faker->addProvider(new FakerBrazil($faker));
+            $faker->addProvider(new FakerMesir($faker));
             return $faker;
         });
     }

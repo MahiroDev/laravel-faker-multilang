@@ -3,10 +3,10 @@ namespace FakerMultiLang;
 
 use Faker\Provider\Base;
 
-class FakerKorea extends Base
+class FakerIndia extends Base
 {
-    protected static $nama = ["Jisoo", "Minho", "Taehyung", "Hana"];
-    protected static $kota = ["Seoul", "Busan", "Incheon"];
+    protected static $nama = ["Amit", "Priya", "Raj", "Anjali"];
+    protected static $kota = ["Mumbai", "Delhi", "Bangalore"];
 
     public static function namaLengkap()
     {
@@ -15,6 +15,6 @@ class FakerKorea extends Base
 
     public static function kota()
     {
-        return static::randomElement(static::$kota) . ' ' . static::randomElement(static::$nama);
+        return static::randomElement(static::$kota);
     }
 }

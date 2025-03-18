@@ -1,6 +1,6 @@
 {
     "name": "sayangku/faker-multilang",
-    "description": "Indonesia, Jepang, Korea, dan Tokyo",
+    "description": "Factory & Seeder Data Dummy laravel",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -15,6 +15,7 @@
         }
     },
     "require": {
+        "fzaninotto/faker":"*",
         "illuminate/support": "^12.2"
     }
 }
