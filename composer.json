@@ -7,7 +7,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Sayangku\\FakerMultilang\\": "src/"
+      "App\\Services\\FakerMultiLang\\": "app/Services/FakerMultiLang/"
     }
   },
   "description": "Factory & Seeder Data Dummy laravel",
@@ -38,5 +38,6 @@
     "illuminate/support": "^10.0 || ^11.0 || ^12.0",
     "php": "^7.4|^8.0"
   },
-  "type": "library"
+  "type": "library",
+  "version": "1.0.2"
 }
