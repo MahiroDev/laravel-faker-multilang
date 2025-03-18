@@ -14,7 +14,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "app/Services/FakerMultilang\\FakerServiceProvider"
+        "App\\Services\\FakerMultiLang\\FakerServiceProvider"
       ]
     }
   },
@@ -25,7 +25,7 @@
   ],
   "license": "MIT",
   "minimum-stability": "stable",
-  "name": "sayangku/faker-multilang",
+  "name": "comper/faker-multilang",
   "prefer-stable": false,
   "repositories": [
     {
@@ -39,5 +39,5 @@
     "php": "^7.4|^8.0"
   },
   "type": "library",
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
