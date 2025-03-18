@@ -1,47 +1,35 @@
 {
-    "authors": [
-        {
-            "email": "rozakadm@gmail.com",
-            "homepage": "https://github.com/faizinuha",
-            "name": "Abdul Rozak ( Zaky ) ",
-            "role": "Developer"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "FakerMultiLang\\": "src/"
-        }
-    },
-    "description": "Factory & Seeder Data Dummy laravel",
-    "extra": {
-        "laravel": {
-            "providers": [
-                "FakerMultiLang\\FakerServiceProvider"
-            ]
-        }
-    },
-    "homepage": "https://github.com/faizinuha",
-    "keywords": [
-        "Data",
-        "Library"
-    ],
-    "minimum-stability": "dev",
-    "license": "MIT",
-    "name": "sayangku/faker-multilang",
-    "require": {
-        "fakerphp/faker": "^1.24",
-        "illuminate/support": "^10.2",
-        "php": ">=8.2"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^9.5",
-        "mockery/mockery": "^1.4"
-    },
-    "scripts": {
-        "test": "phpunit"
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "type": "library"
+  "authors": [
+    {
+      "name": "TZ",
+      "email": "rozakadm@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Sayangku\\FakerMultiLang\\": "src/"
+    }
+  },
+  "description": "Factory & Seeder Data Dummy laravel",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "FakerMultiLang\\FakerServiceProvider"
+      ]
+    }
+  },
+  "homepage": "https://github.com/faizinuha",
+  "keywords": [
+    "Data",
+    "Library"
+  ],
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "name": "sayangku/faker-multilang",
+  "require": {
+    "fakerphp/faker": "2.0.x-dev",
+    "illuminate/support": "^10.2",
+    "php": ">=8.2"
+  },
+  "type": "library"
 }
