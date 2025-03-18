@@ -1,4 +1,12 @@
 {
+    "authors": [
+        {
+            "email": "rozakadm@gmail.com",
+            "homepage": "https://github.com/faizinuha",
+            "name": "Abdul Rozak ( Zaky ) ",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "FakerMultiLang\\": "src/"
@@ -12,22 +20,28 @@
             ]
         }
     },
+    "homepage": "https://github.com/faizinuha",
+    "keywords": [
+        "Data",
+        "Library"
+    ],
+    "minimum-stability": "dev",
     "license": "MIT",
     "name": "sayangku/faker-multilang",
-    "keywords": ["Data","Library"],
-    "type": "library",
-    "homepage": "https://github.com/faizinuha",
-    "authors": [
-        {
-            "name": "Abdul Rozak ( Zaky ) ",
-            "email": "rozakadm@gmail.com",
-            "homepage": "https://github.com/faizinuha",
-            "role": "Developer"
-        }
-    ],
     "require": {
         "fakerphp/faker": "^1.24",
         "illuminate/support": "^10.2",
         "php": ">=8.2"
-    }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "mockery/mockery": "^1.4"
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "type": "library"
 }
