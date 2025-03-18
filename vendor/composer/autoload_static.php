@@ -44,7 +44,6 @@ class ComposerStaticInit375474f7c17df50a848dbf6b7576c57c
         ),
         'F' => 
         array (
-            'Faker\\' => 6,
             'FakerMultiLang\\' => 15,
         ),
         'D' => 
@@ -97,18 +96,14 @@ class ComposerStaticInit375474f7c17df50a848dbf6b7576c57c
         ),
         'Illuminate\\Support\\' => 
         array (
-            0 => __DIR__ . '/..' . '/illuminate/macroable',
+            0 => __DIR__ . '/..' . '/illuminate/collections',
             1 => __DIR__ . '/..' . '/illuminate/conditionable',
-            2 => __DIR__ . '/..' . '/illuminate/collections',
+            2 => __DIR__ . '/..' . '/illuminate/macroable',
             3 => __DIR__ . '/..' . '/illuminate/support',
         ),
         'Illuminate\\Contracts\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/contracts',
-        ),
-        'Faker\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker',
         ),
         'FakerMultiLang\\' => 
         array (
