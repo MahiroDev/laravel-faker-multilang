@@ -14,7 +14,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "FakerMultilang\\FakerServiceProvider"
+        "app/Services/FakerMultilang\\FakerServiceProvider"
       ]
     }
   },
