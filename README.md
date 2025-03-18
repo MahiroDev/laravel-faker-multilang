@@ -20,7 +20,15 @@ composer require hikari/faker-multilang:^1.0.2 --with-all-dependencies
 composer require hikari/faker-multilang:^1.0.3 --with-all-dependencies
 ```
 
-### **2️⃣ Verifikasi Instalasi**
+### **2️⃣ Buat Direktori Services**
+
+Jika direktori `app/Services` belum ada, buatlah secara manual:
+
+```bash
+mkdir -p app/Services/FakerMultiLang
+```
+
+### **3️⃣ Verifikasi Instalasi**
 
 Setelah itu, Laravel akan otomatis mengenali package ini. Tidak ada konfigurasi tambahan yang diperlukan, cukup pastikan bahwa Faker sudah terinstall di proyek Laravel kamu. Jika ingin memastikan bahwa provider telah ditambahkan dengan benar, kamu bisa mengeceknya dengan menjalankan kode uji coba sederhana menggunakan `dump($faker->namaLengkap());` di dalam controller atau route.
 
@@ -40,20 +48,20 @@ Misalnya, jika kamu sedang membangun sistem pengguna dan membutuhkan data palsu 
 
 ```php
 use Faker\Factory;
-use FakerMultiLang\FakerIndonesia;
-use FakerMultiLang\FakerJepang;
-use FakerMultiLang\FakerKorea;
-use FakerMultiLang\FakerTokyo;
-use FakerMultiLang\FakerAmerika;
-use FakerMultiLang\FakerChina;
-use FakerMultiLang\FakerIndia;
-use FakerMultiLang\FakerPerancis;
-use FakerMultiLang\FakerJerman;
-use FakerMultiLang\FakerItalia;
-use FakerMultiLang\FakerSpanyol;
-use FakerMultiLang\FakerRusia;
-use FakerMultiLang\FakerBrazil;
-use FakerMultiLang\FakerMesir;
+use App\Services\FakerMultiLang\FakerIndonesia;
+use App\Services\FakerMultiLang\FakerJepang;
+use App\Services\FakerMultiLang\FakerKorea;
+use App\Services\FakerMultiLang\FakerTokyo;
+use App\Services\FakerMultiLang\FakerAmerika;
+use App\Services\FakerMultiLang\FakerChina;
+use App\Services\FakerMultiLang\FakerIndia;
+use App\Services\FakerMultiLang\FakerPerancis;
+use App\Services\FakerMultiLang\FakerJerman;
+use App\Services\FakerMultiLang\FakerItalia;
+use App\Services\FakerMultiLang\FakerSpanyol;
+use App\Services\FakerMultiLang\FakerRusia;
+use App\Services\FakerMultiLang\FakerBrazil;
+use App\Services\FakerMultiLang\FakerMesir;
 
 $faker = Factory::create();
 
@@ -317,7 +325,7 @@ Silakan dicoba! 🚀😊
 Jika mengalami kendala saat menggunakan Faker Multi Bahasa, berikut beberapa solusi umum:
 
 1. **Class not found error:**
-   - Pastikan package sudah diinstal dengan benar menggunakan `composer require hikarifaker-multilang`.
+   - Pastikan package sudah diinstal dengan benar menggunakan `composer require hikari/faker-multilang`.
    - Jalankan `composer dump-autoload` untuk memastikan autoload telah diperbarui.
 
 2. **Data tidak muncul atau kosong:**
@@ -326,6 +334,6 @@ Jika mengalami kendala saat menggunakan Faker Multi Bahasa, berikut beberapa sol
 
 3. **Error saat menjalankan kode di Tinker atau Seeder:**
    - Pastikan semua dependensi Laravel sudah terinstal dan up-to-date dengan menjalankan `composer install`.
-   - Jika masih bermasalah, coba gunakan namespace lengkap seperti `\FakerMultiLang\FakerJepang` saat menambahkan provider.
+   - Jika masih bermasalah, coba gunakan namespace lengkap seperti `\App\Services\FakerMultiLang\FakerJepang` saat menambahkan provider.
 
 Dengan langkah-langkah ini, diharapkan penggunaan Faker Multi Bahasa menjadi lebih lancar dan tanpa kendala! 🚀
