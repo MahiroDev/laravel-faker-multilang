@@ -1,8 +1,8 @@
 {
   "authors": [
     {
-      "name": "TZ",
-      "email": "rozakadm@gmail.com"
+      "email": "rozakadm@gmail.com",
+      "name": "TZ"
     }
   ],
   "autoload": {
@@ -14,7 +14,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Sayangku\\FakerMultilang\\FakerServiceProvider"
+        "FakerMultilang\\FakerServiceProvider"
       ]
     }
   },
@@ -23,16 +23,16 @@
     "Data",
     "Library"
   ],
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "name": "sayangku/faker-multilang",
+  "prefer-stable": false,
   "repositories": [
     {
       "type": "vcs",
       "url": "https://github.com/faizinuha/laravel-faker-multilang"
     }
   ],
-  "minimum-stability": "stable",
-  "prefer-stable": false,
-  "license": "MIT",
-  "name": "sayangku/faker-multilang",
   "require": {
     "fakerphp/faker": "^1.9",
     "illuminate/support": "^10.0 || ^11.0 || ^12.0",
