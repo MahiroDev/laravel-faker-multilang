@@ -7,14 +7,14 @@
   ],
   "autoload": {
     "psr-4": {
-      "Sayangku\\FakerMultiLang\\": "src/"
+      "Sayangku\\FakerMultilang\\": "src/"
     }
   },
   "description": "Factory & Seeder Data Dummy laravel",
   "extra": {
     "laravel": {
       "providers": [
-        "FakerMultiLang\\FakerServiceProvider"
+        "Sayangku\\FakerMultilang\\FakerServiceProvider"
       ]
     }
   },
@@ -23,13 +23,20 @@
     "Data",
     "Library"
   ],
-  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/faizinuha/laravel-faker-multilang"
+    }
+  ],
+  "minimum-stability": "stable",
+  "prefer-stable": false,
   "license": "MIT",
   "name": "sayangku/faker-multilang",
   "require": {
-    "fakerphp/faker": "2.0.x-dev",
+    "fakerphp/faker": "^1.9",
     "illuminate/support": "^10.2",
-    "php": ">=8.2"
+    "php": "^7.4|^8.0"
   },
   "type": "library"
 }

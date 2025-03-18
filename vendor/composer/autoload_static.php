@@ -26,7 +26,7 @@ class ComposerStaticInit375474f7c17df50a848dbf6b7576c57c
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Contracts\\Translation\\' => 30,
             'Symfony\\Component\\Translation\\' => 30,
-            'Sayangku\\FakerMultiLang\\' => 24,
+            'Sayangku\\FakerMultilang\\' => 24,
         ),
         'P' => 
         array (
@@ -75,7 +75,7 @@ class ComposerStaticInit375474f7c17df50a848dbf6b7576c57c
         array (
             0 => __DIR__ . '/..' . '/symfony/translation',
         ),
-        'Sayangku\\FakerMultiLang\\' => 
+        'Sayangku\\FakerMultilang\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -104,7 +104,7 @@ class ComposerStaticInit375474f7c17df50a848dbf6b7576c57c
         ),
         'Faker\\' => 
         array (
-            0 => __DIR__ . '/..' . '/fakerphp/faker/src',
+            0 => __DIR__ . '/..' . '/fakerphp/faker/src/Faker',
         ),
         'Doctrine\\Inflector\\' => 
         array (
