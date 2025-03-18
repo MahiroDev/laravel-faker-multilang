@@ -1,16 +1,16 @@
 {
-    "name": "composer/faker-multilang",
+    "name": "sayangku/faker-multilang",
     "description": "Indonesia, Jepang, Korea, dan Tokyo",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "FakerMultiLang\\": "src/"
+            "SayangKu\\FakerMultiLang\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "FakerMultiLang\\FakerServiceProvider"
+            "SayangKu\\FakerMultiLang\\FakerServiceProvider"
             ]
         }
     },
