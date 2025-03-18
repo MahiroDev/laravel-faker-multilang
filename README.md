@@ -14,6 +14,10 @@ Tambahkan package ini ke dalam project Laravel kamu menggunakan **Composer**:
 composer require sayangku/faker-multilang
 ```
 
+```bash
+composer require sayangku/faker-multilang:^1.0.1 --with-all-dependencies
+```
+
 ### **2️⃣ Verifikasi Instalasi**
 
 Setelah itu, Laravel akan otomatis mengenali package ini. Tidak ada konfigurasi tambahan yang diperlukan, cukup pastikan bahwa Faker sudah terinstall di proyek Laravel kamu. Jika ingin memastikan bahwa provider telah ditambahkan dengan benar, kamu bisa mengeceknya dengan menjalankan kode uji coba sederhana menggunakan `dump($faker->namaLengkap());` di dalam controller atau route.
