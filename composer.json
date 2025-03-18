@@ -7,14 +7,14 @@
   ],
   "autoload": {
     "psr-4": {
-      "App\\Services\\FakerMultiLang\\": "app/Services/FakerMultiLang/"
+      "Hikari\\FakerMultiLang\\": "app/Services/FakerMultiLang/"
     }
   },
   "description": "Factory & Seeder Data Dummy laravel",
   "extra": {
     "laravel": {
       "providers": [
-        "App\\Services\\FakerMultiLang\\FakerServiceProvider"
+        "Hikari\\FakerMultiLang\\FakerServiceProvider"
       ]
     }
   },
@@ -25,7 +25,7 @@
   ],
   "license": "MIT",
   "minimum-stability": "stable",
-  "name": "comper/faker-multilang",
+  "name": "hikari/faker-multilang",
   "prefer-stable": false,
   "repositories": [
     {
