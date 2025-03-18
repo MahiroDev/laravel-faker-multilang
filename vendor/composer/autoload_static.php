@@ -44,6 +44,7 @@ class ComposerStaticInit375474f7c17df50a848dbf6b7576c57c
         ),
         'F' => 
         array (
+            'Faker\\' => 6,
             'FakerMultiLang\\' => 15,
         ),
         'D' => 
@@ -104,6 +105,10 @@ class ComposerStaticInit375474f7c17df50a848dbf6b7576c57c
         'Illuminate\\Contracts\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/contracts',
+        ),
+        'Faker\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fakerphp/faker/src/Faker',
         ),
         'FakerMultiLang\\' => 
         array (

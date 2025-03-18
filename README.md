@@ -1,4 +1,4 @@
-# Laravel Faker Multi Bahasa
+# Laravel Faker Multi Bahasa, 
 
 Faker Multi Bahasa untuk Laravel yang mendukung **Indonesia, Jepang, Korea, Tokyo, Amerika, China, India, Perancis, Jerman, Italia, Spanyol, Rusia, Brazil, dan Mesir**. Library ini bekerja dengan menambahkan provider khusus ke dalam Faker bawaan Laravel, memungkinkan pembuatan data acak seperti nama dan kota berdasarkan negara yang dipilih. Dibandingkan dengan Faker standar, library ini memberikan keunggulan dalam personalisasi data dengan format yang lebih sesuai dengan budaya masing-masing negara. Dapat digunakan untuk menghasilkan nama dan kota secara acak berdasarkan negara.
 
