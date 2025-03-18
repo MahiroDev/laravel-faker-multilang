@@ -7,14 +7,14 @@
   ],
   "autoload": {
     "psr-4": {
-      "Hikari\\FakerMultiLang\\": "app/Services/FakerMultiLang/"
+      "App\\Services\\FakerMultiLang\\": "app/Services/FakerMultiLang/"
     }
   },
   "description": "Factory & Seeder Data Dummy laravel",
   "extra": {
     "laravel": {
       "providers": [
-        "Hikari\\FakerMultiLang\\FakerServiceProvider"
+        "App\\Services\\FakerMultiLang\\FakerServiceProvider"
       ]
     }
   },
